@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>FORMULÁRIO</h1>
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" placeholder="" name="nome">
+        <br>
+        <br>
+        <label for="">E-mail</label>
+        <input type="email" placeholder="pessoa@xpto.com" name="email">
+        <br>
+        <br>
+        <label for="Senha">Senha</label>
+        <input type="password" name="password" minlength="6" maxlength="8" >
+        <br>
+        <br>
+        <label for="">Idade</label>
+        <input type="number" name="idade" min="0" max="40">
+        <br>
+        <br>
+        <label for="">Data de Nascimento</label>
+        <input type="date" name="dataDeNascimento" min="2023-05-26" max="2023-06-26">
+        <br><br>
+        <label for="">Telefone</label>
+        <input type="telefone" name="telefone">
+        <br><br>
+        <label for="">URL da foto</label>
+        <input type="url" name="url">
+        <br><br>
+        <label for="">Frente do RG</label>
+        <input type="file" accept=".png, .jpg" multiple name="rg">
+        <br><br>
+        <label for="">Escolha a sua cor</label>
+        <input type="color" name="cor">
+        <br><br>    
+        <label for="">Horário</label>
+        <input type="time" value="15:00" disabled name="horario">
+        <br><br><br>
+        <label for="">Estado civil:</label>
+        <label for="">casado</label>
+        <input type="radio" name="estado-civil" value="casado">
+        <label for="">solteiro</label>
+        <input type="radio"name="estado-civil" value="solteiro">    
+        <br><br>
+        <label for="">Aceito os termos informados</label>
+        <input type="checkbox" name="aceite">
+        <br><br>
+        <label for="">Nivel de Inglês:  1</label>        
+        <input type="range" min="1" max="5" step="0.5" name="nivelDeIngles">5
+        <br><br>
+        <label for="">Nivel de Inglês:  1</label>        
+        <select name="estado">
+            <option disabled selected value="">Selecione o estado</option>
+            <option value="">São Paulo</option>
+            <option value="">Pernambuco</option>
+            <option value="">Bahia</option>
+        </select>
+        <br><br>
+        <label for="">Fale um pouco sobre você</label>
+        <br>
+        <textarea rows="3" cols="30" name="" id="" cols="30" rows="10" placeholder="Digite aqui sua descrição"> No máximo 20 caracteres</textarea>
+        <br>       
+
+
+        <button type="">Enviar</button>
+
+    
+    </form>
+    
+</body>
+</html>
+
+
+
+
+
+
+<!-- 
+<form action=""></form>- estrutura base de um formulário -->
+<!-- <label for=""></label>- adiciona o nome do formulário -->
+<!-- value- atributo que representa o valor do campo especificado; -->
+<!-- placeholder- define um texto explicativo para o campo -->
+<!-- name- indica uma identificação para a informação no envio do formulário -->
+<!-- minlength- tamanho mínimo -->
+<!-- maxlength - tamanho máximo -->
+<!-- pattern- define um modelo padrão com  caracteres mínimos e máximos --> 
+<!-- as alterações são realizadas dentro da expressão regular -->
+
+<!-- BOTÕES: -->
+<!-- <button type="button"></button>- inicialmente não executa nenhuma ação, auxilia na execução de algum evento no js -->
+<!-- <button type="submit"></button> - tenta enviar as informações do formulário -->
+<!-- <button type="reset"></button>- reseta os campos do formulário -->
+
+<!-- INPUT para botões. POSSUEM AS MESMAS FUNÇÕES Da tag button-->
+<!-- <input type="button"> -->
+<!-- <input type="reset"> -->
+<!-- <input type="submit"> -->
+
+
+
+

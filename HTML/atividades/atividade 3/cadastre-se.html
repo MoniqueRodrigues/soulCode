@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <h1>Cadastre-se</h1>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" maxlength="200" placeholder="informe o seu nome" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="12345@xpto.com" id="email" required>
+            <br><br>
+
+            <label for="">Senha</label>
+            <input type="password" name="senha" required>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" required>
+
+            </select>
+            <label for="">Estado</label>
+            <select name="estado" id="estado" id="estado" required>
+                <option value="" disabled>Selecione o estado</option>
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="es">ES</option>
+                <option value="outros">Outros</option>
+            </select>
+            <br><br>
+            <label for="">Rua</label>
+            <input type="text">
+            <label for="">número</label>
+            <input type="text">
+            <label for="">complemento</label>
+            <input type="text">
+            <br><br>
+            <label for="">Cep:</label>
+            <input type="number">
+
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Área de atuação</legend>
+            <label for="">FullStack</label>
+            <input type="radio" name="area" value="fullstack" required>
+            <label for="">Back-End</label>
+            <input type="radio" name="area" value="cloud" required>
+            <label for="">Ambos</label>
+            <input type="radio" name="area" value="ambos" required>
+
+        </fieldset>
+
+        <br><br>
+        <label for="bio">Biografia</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <br><br>
+
+
+        <br><br>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
+
+
+
+<!-- 
+    Formulário:
+    -Crie um formulário em HTML para capturar dados de cadastro de uma pessoa:
+    -Nome completo da pessoa(máximo 200 caracteres);
+    -email;
+    -senha;
+    -uf;
+    cidade;
+    -rua;
+    -número;
+    -cep;
+    -bio;
+    -área de atuação(Fulltack; cloud,ambos);
+    -todos os campos são obrigatórios;
+    -botões de cadastro e botão de limpar;
+
+    ----------------------------------------------------------------------
+    Formulário de login:
+    -Crie um formulário de login;
+    -email;
+    -senha;
+    -lembrar de mim;
+    -botão de logar e um link para cadastro; -->

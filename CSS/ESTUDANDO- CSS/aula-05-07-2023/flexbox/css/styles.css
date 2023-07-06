@@ -1,0 +1,63 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1{
+    background-color:#a52a2a;
+    display: flex;    /*ativa o flex-box* SEMPRE NO PAI*/
+    /* flex-direction: row; column= direção que os elementos são distribuídos */
+    padding: 10px;
+    flex-wrap: wrap; /*quebra linha se não houver espaço*/
+    /*flex-flow:row wrap atalho para flex-direction e flex-wrap*/
+    justify-content:space-around; /*manipula, ajusta os elementos no eixo main da row*/
+    /*stretch, start,end, center=ajusta os elementos no eixo cross*/
+    align-items: center;
+    /*space-between, space-around, center, fçex-start, flex-end*/
+    align-content:flex-start;
+    height:700px;
+
+}
+
+.item-1{
+    background-color: green;
+}
+.item-2{
+    background-color: purple;
+}
+.item-3{
+    background-color: blueviolet;
+    /*flex-start, flex-end, center, stretch*/
+    align-self:flex-end;
+}
+.item-4{
+    background-color: pink;
+}
+.item-1,.item-2,.item-3,.item-4{
+    width:200px;
+    padding: 8px;
+}
+
+
+
+/* 
+<!-- CONTAINER-2 --> */
+.container-2{
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+.coluna-1{
+    background-color: tan;
+    width: 200px; 
+    flex: 2;   
+}
+.coluna-2{
+    background-color: aqua;
+    flex: 2; /*ocupa o espaço disponível*/
+}
+.coluna-3{
+    background-color: tomato;
+    flex:1;
+}

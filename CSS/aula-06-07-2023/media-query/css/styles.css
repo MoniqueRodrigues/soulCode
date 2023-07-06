@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: aqua;
+}
+
+
+/*dispositivos de tela(mobole, tablet, desktop...)*/
+@media screen and(max-width:320px){
+    body{
+        background-color: brown;
+    }
+
+}
+
+@media screen and (min-width:321px) and (max-width:1024px) {
+    body{
+        background-color: blue;
+    };
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*
+MEDIA QUERIES- regras especiais que podem ou serem aplicadas
+
+
+@media condicao{
+    //estilos à serem aplicados caso a condição seja verdadeira.
+
+
+*/

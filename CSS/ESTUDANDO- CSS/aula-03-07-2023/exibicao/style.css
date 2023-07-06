@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    
+}
+.box{
+    padding: 20px;
+    border: 1px solid black;
+}
+.inline{
+    display: inline;
+}
+
+
+a{
+    background-color: rgb(255, 0, 179);
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- display block --> */
+/* ocupa toda a largura e quebra a linha no final */
+
+
+/* <!-- display-inline --> ocupa somente o necessário */
+
+/* <!-- display- none --> elemento não aparece */

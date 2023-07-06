@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+}
+
+main {
+    padding: 16px 32px;
+
+}
+
+.blog-secao {
+    margin: 16px 0
+}
+
+.blog-secao h2 {
+    text-align: center;
+}
+
+.blog-secao p {
+    text-align: justify;
+}
+
+.btn {
+    background-color: #bce092;
+    border: none;
+    padding: 8px 12px;
+    margin: 4px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+
+}
+
+.btn:hover {
+    background-color: #87e012;
+    color: rgb(48, 49, 48);
+    width: 102px;
+}
+
+.material-symbols-outlined {
+    font-size: 14px;
+}
+
+.navigator ul {
+    background-color: #87e012;
+    height: 50px;
+    text-align: center;  
+}
+
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 12px 8px; 
+
+}
+a:hover{
+    color: green;
+    font-weight: 100;
+}
+
+

@@ -1,0 +1,36 @@
+html{
+    /* font-size: 20px;
+     */
+     font-size: 1rem;
+}
+
+
+
+.container h1,
+.container h2,
+.container h3 {
+    /*left, center,right,justify*/
+    text-align: justify;
+    font-style: italic;
+    font-weight: 100;
+    color: green;
+    
+   
+    
+
+}
+
+.container h1{
+    font-size: 3rem;
+}
+.container h2 {
+    font-size: 2.5rem;
+}
+.container h3{
+    font-size: 2rem;
+}
+.container p{
+   text-align:justify;
+   font-size: 1.25rem;
+  color: blue;
+}

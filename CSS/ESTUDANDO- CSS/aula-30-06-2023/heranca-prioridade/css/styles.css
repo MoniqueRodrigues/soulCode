@@ -1,0 +1,29 @@
+/* font-family é herdada para os descendentes */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightcoral;
+    /* não herdada*/
+    color: aliceblue;
+    /*herdada*/
+}
+
+.codigo {
+    font-family: monospace;
+    color: rgb(88, 22, 211);
+}
+
+/* Prioridade = CSS define quais propriedades serão aplicadas ou sobrescritas */
+/* inline > tag style >arquivo externo> atributo style> #ide > .class>seletor tipo*/
+
+h1,h2,h3 {
+    background-color: brown;
+    text-decoration: line-through;
+}
+
+.custom-h1{
+    background-color: blue;
+}
+#custom{
+    background-color: blueviolet;
+
+}

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.box1{
+    background-color: aqua;
+    padding: 40px; /*preenche todos o lados*/
+    text-align: justify;
+    margin:40px;
+}
+
+.box2{
+    background-color: blueviolet;
+    /* top right bottom left */
+    padding: 10px 15px 20px 10px;
+    /* margin: 50px 10px 10px 10px; */
+    margin: 25px 30px; /*vertical horizontal*/
+}
+
+.box3{
+    background-color: brown;
+    border:5px solid rgb(159, 223, 10);
+}
+
+.box4{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid yellow;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+/* Box-Model -->podemos configurar a aparência da cixa dos elementos;
+padding-->preenchimento interno;
+marging-->espaçamento externo;
+border-->contorno; */
+/* border: solid, dashed, dotted */
+/* border-box--> Indica ao css para levar em conta nos 200px a borda e o padding  se aplica a todos os elementos */
+/* *--> seletor universal */
+

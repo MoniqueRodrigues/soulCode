@@ -1,0 +1,56 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url("https://media.istockphoto.com/id/1391832007/pt/foto/summer-blue-sky-cloud-gradient-light-white-background-beauty-clear-cloudy-in-sunshine-calm.webp?b=1&s=170667a&w=0&k=20&c=JEBuB-4tMfMNGjN_cet6_J5w4rbgB3gqC_57yxn0R3A=");
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.nave{
+   background-color: blueviolet;
+   width: 100%;
+   height:100px;
+}
+
+ul>li {
+   display: inline;
+
+}
+
+
+h2{
+   text-align: center;
+}
+
+
+p{
+   text-align: justify;
+   margin-top:20px;
+}
+
+.cards{
+   border: 10px solid rgb(93, 93, 235);
+   border-radius: 10px;
+   background-color:rgb(177, 177, 231);
+   width:1000px;
+   height:500px;
+   margin:200px;
+   align-items: center;
+   padding: 40px;
+
+}
+
+li{
+   display: flex;
+   font-size:20px;
+   margin: 60px;
+}
+h2{
+   margin-top:20px
+}
+
+

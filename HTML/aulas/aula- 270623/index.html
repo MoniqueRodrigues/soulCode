@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout da página</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+            <a href="">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cadasto de Super Herói</h2>
+        <section>
+            <form action="" method="">
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" maxlength="100" required>
+                    <br><br>
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br><br>
+                    <label for="poderes">Poderes:</label>
+                    <input type="text" name="poderes" maxlength="150" id="poderes" required>
+                </fieldset>
+
+                <br>
+                <fieldset>
+                    <legend>Informações do endereço</legend>
+                    <label for="rua">Rua:</label>
+                    <input type="text" name="rua" id="rua" required>
+                    <br><br>
+                    <label for="numero">Número:</label>
+                    <input type="text" name="numero" id="numero" required>
+                    <br><br>
+                    <label for="estado">UF:</label>
+                    <input type="text" name="estado" id="estado" maxlength="2" required>
+                    <br><br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" maxlength="100" required>
+                    <br><br>
+                </fieldset>
+                <br><br>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <aside>
+        O Aside é um conteúdo que ficará na lateral
+    </aside>
+    <footer>
+        &copy;Todos os direitos reservados SoulCode Academy
+
+    </footer>
+</body>
+
+</html>
+
+<!-- required- torna o campo obrigatorio -->
+<!-- label- rótulo do campo -->
+<!-- o id do input faz referência ao for da label(declarar mesmo nome) -->
+<!-- name- utilizado- define o nome de cada informação que será enviada ao backend -->
+<!-- action- faz referência do local aonde as informações serão enviadas -->
+<!-- method-formato como os dados são transferidos pela internet -->
+
+<!-- header- Estrutura o cabeçalho da página -->
+<!-- main- Estrutura o corpo principal da página -->
+<!-- footer- Representa o rodapé da página -->
+<!-- aside- Define uma barra lateral -->
+<!-- nav- representa a navegação através dos links-->
+<!-- section- seção da página -->
+<!-- article- define artigo d página(normalmente acompanhados por img, link e um pequeno texto) -->
+<!-- <div>- container de elementos genéricos -->

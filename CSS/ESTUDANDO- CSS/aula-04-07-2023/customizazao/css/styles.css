@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*definindo variável de uma cor: criar variavel dentro do elemento raíz */
+    --cor-primaria: #9bdaa4;
+    --cor-secundaria: #2d3a3a;
+}
+
+body {
+    padding: 16px;
+}
+
+.btn {
+    border: 0;
+    display: block;
+    /* referencia a variavel definida na raiz; */
+    background-color: var(--cor-primaria);
+    color: white;
+    margin: 2px 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: var(--cor-secundaria);
+}
+
+hr {
+    border: 0.5px dashed var(--cor-secundaria);
+    margin: 8px 0px;
+}
+
+
+
+/* TABLE */
+.tabela {
+    width: 100%;
+    /* junta as bordas */
+    border-collapse: collapse;
+}
+
+.tabela td,
+.tabela th {
+    border: 1px solid #0a0909;
+    padding: 8px;
+}
+
+.tabela th {
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+
+
+/* FORMULÁRIO */
+.formulario {
+    background-color: #f2f2f2;
+    padding: 12px 20px;
+    width: 400px;
+
+}
+
+.formulario input,
+.formulario select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+.formulario .btn {
+    width: 100%;
+    margin: 5px;
+
+}
+
+.grupo {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.botao {
+    margin-top: 20px;
+}
